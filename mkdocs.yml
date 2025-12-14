@@ -1,0 +1,24 @@
+site_name: Frappe Bible (from zero to hero)
+site_description: A practical guide to the Frappe Framework (v15)
+repo_name: hamzabawumia/frappe-bible
+repo_url: https://github.com/hamzabawumia/frappe-bible
+site_author: hamzabawumia
+
+nav:
+  - Home: index.md
+  - Part I - Foundations:
+    - 01 - Intro: 01-foundations/01-intro.md
+    - 02 - Installation: 02-installation/01-local.md
+  - Part II - First App:
+    - 03 - First App Tutorial: 03-first-app/tutorial.md
+
+theme:
+  name: material
+  language: en
+
+plugins:
+  - search
+  - mkdocs-minify-plugin
+
+extra_css: []
+extra_javascript: []
